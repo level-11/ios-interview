@@ -52,6 +52,10 @@ class TickerTests: XCTestCase {
         // INTERVIEW:
         // Write an assertion that ensures that this test passes if and only if one of the
         // Tickers returned contains an "id" with value "bitcoin"
+        
+        // See Ticker.swift and Ticket+Get.swift for the model and request details
+        // and refer to the above test for an example of how to make a Ticker request.
+        
         // Similar to the above test, this test should succeed even if not connected to the network
         // i.e., you may include a .json file that contains data that makes this test pass
         XCTFail()
